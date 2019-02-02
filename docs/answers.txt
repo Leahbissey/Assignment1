@@ -47,3 +47,8 @@ update their local repository everytime someone pushes to to the central reposit
 probably be often with 100 developers. 
 
 
+5. RoleGame is using polymorphism and encapsulation. It is using dynamic polymorphism by each subclass
+overriding the hit function to do something different. It is using encapsulation by having getter functions
+in the weapon class and by combing members and fucntions in different classes that have different behaviors. 
+
+
