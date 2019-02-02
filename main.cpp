@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
 
    srand(time(0)); 
     double armor = 29;
-
+    
     Weapon *weapon = WeaponFactory::getInstance()->getWeapon("sword");
     simulateWeapon(weapon, armor);
     delete(weapon);
