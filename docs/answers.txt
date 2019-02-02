@@ -1,1 +1,49 @@
-  
+a) Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 440 bytes | 440.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Leahbissey/Assignment1.git
+   043cb80..ffd6fff  master -> master
+
+b) 5, git log 
+
+c)
+
+d)Git branches are a pointer to a snapshot of your changes. Branches make it
+easier to logically divide up work. You can switch back to master branch easily
+to fix something that needs to be fixed quickly. 
+
+e)Git status dislpays the state of the working directory and the staging area. 
+Git log shows any informaiton regarding the commited project history.
+
+f)git log --follow --Weapon.h
+
+g) git log --grep="term" 
+
+I) Inheritance is being able to derive a class from another class for a hierachy 
+of classes that share a set of characteristics and functions. 
+II) Polymorphism is the concept that different classes can be used in the same interface.
+It allows you to have multiple methods within the same class that have same name but 
+different set of paramenters (method overloading). Another example of polymorphism is
+method overriding where a child class can override a method of its parent class. 
+III) Encapsulation deals with building a class by putting together data and methods 
+within one unit.  It is used to hide the internal represenation of an object from the outside. 
+
+
+i) With the "Integration-Manager" workflow you create your own public clone of the project
+and push your changes to it. Then you ask maintainer to pull in your changes. In "Dictator
+and Lieutenants" Workflow, various integration managers are in charge of certain parts of the
+repository, these are lieutenants. The Dictator then merges the lieutenants master branches 
+into the dicatators master branch. 
+
+j) A team of 100 developers would benefit more by following the "Dictator and Lieutenants" 
+workflow instead of the "Centralized" workflow because there are multiple repositories with
+the "Dictator and Liutenants" workflow and not everyone has access to write in the main repository.
+With 100 people working on a project, a centralized workflow may be too simple and one will have to
+update their local repository everytime someone pushes to to the central repository, which would
+probably be often with 100 developers. 
+
+

@@ -22,7 +22,7 @@ class CrazyRandomSword : public Weapon
 {
 public: 
 
-     CrazyRandomSword() : Weapon("Crazy Sword", 30.0)
+     CrazyRandomSword() : Weapon("Crazy Sword", (rand() %100)+ 7)
     {
          
     }
